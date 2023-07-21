@@ -28,6 +28,13 @@ export default function Holidays() {
     setHolidayBooked(true);
   }
 
+  function handleContinueBrowsingClick() {
+    setSelectedCountry("");
+    setChosenHoliday({});
+    setHolidayBooked(false);
+    setDataToDisplay(data);
+  }
+
   return (
     <>
       <Helmet>
@@ -49,7 +56,12 @@ export default function Holidays() {
             handleBookHolidayClick={handleBookHolidayClick}
           />
         )}
-        {holidayBooked && <BookedHoliday chosenHoliday={chosenHoliday} />}
+        {holidayBooked && (
+          <BookedHoliday
+            chosenHoliday={chosenHoliday}
+            handleContinueBrowsingClick={handleContinueBrowsingClick}
+          />
+        )}
       </main>
     </>
   );
