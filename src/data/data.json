@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "holiday": "Tuscany Highlights",
+    "country": "italy",
+    "duration": "6 days",
+    "description": "You'll have a great time swanning around in Florence and Sienna!",
+    "cost": 850
+  },
+  {
+    "id": 2,
+    "holiday": "Riotous Rome",
+    "country": "italy",
+    "duration": "5 days",
+    "description": "Watch the gladiators in the ancient colosseum!",
+    "cost": 800
+  },
+  {
+    "id": 3,
+    "holiday": "Magnificent Madrid",
+    "country": "spain",
+    "duration": "3 days",
+    "description": "What a great place this famous capital city is!",
+    "cost": 520
+  },
+  {
+    "id": 4,
+    "holiday": "Northern Spain",
+    "country": "spain",
+    "duration": "10 days",
+    "description": "Have a great time walking in the beautiful Pyrannean foothills!",
+    "cost": 1000
+  },
+  {
+    "id": 5,
+    "holiday": "Gastro Tour",
+    "country": "italy",
+    "duration": "6 days",
+    "description": "Wow, this is an all you can eat holiday. Not bad for 900 quid!",
+    "cost": 900
+  },
+  {
+    "id": 6,
+    "holiday": "Paris at the Weekend",
+    "country": "france",
+    "duration": "4 days",
+    "description": "Ooh la la. You'll get a great view from the Tour Eiffel!",
+    "cost": 425
+  }
+]
